@@ -1,0 +1,104 @@
+body {
+	margin: 0;
+	font-family: Poppins;
+}
+h2 {
+
+}
+a {
+	text-decoration: none;
+	color: black;
+}
+.register-here {
+	color: #FF432A;
+	text-decoration: none;
+	font-weight: bolder;
+}
+.content {
+	display: flex;
+	width: 100vw;
+	margin: 0 auto;
+	position: ;
+}
+.banner {
+	background: url(banner-img.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	height: 100vh;
+	width: 65%;
+}
+.banner h2 {
+	margin: 0;
+	padding: 25px;
+	text-align: left;
+}
+form {
+	width: 35%;
+	padding: 30px;
+	margin: auto auto;
+}
+form p {
+	margin: 0;
+	padding: 0;
+}
+#email, #password {
+	width: 100%;
+	border: none;
+	padding: 10px;
+}
+#email {
+	border-bottom: 3px solid #FF432A;
+}
+#password {
+	border-bottom: 3px solid #000;
+}
+.input-label {
+	margin-top: 50px;
+}
+.remember-input {
+	margin-top: 10px;
+}
+.remember-me {
+	display: flex;
+	justify-content: space-between;
+  	align-items: flex-end;
+}
+input[type="submit"] {
+  display: block;
+  width: 100%;
+  margin: 1em auto;
+  padding: 10px;
+  font-size: 1.1rem;
+  background-color: #FF432A;
+  color: #fff;
+  border-radius: 25px;
+  border: 0;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  min-width: 300px;
+}
+.continue {
+	text-align: center;
+}
+.icons {
+	text-align: center;
+	margin: auto;
+}
+.icons img {
+
+	height: 30px;
+}
+
+@media only screen and (max-width: 480px) {
+	.banner {
+		width: 100%;
+		height: 80px;
+		background: #fff;
+	}
+	.content {
+		display: block;
+	}
+	form {
+		width: 100vw;
+	}
+}
